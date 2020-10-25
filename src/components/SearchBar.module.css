@@ -1,0 +1,23 @@
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.searchInput {
+  display: inline-block;
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  border-radius: 100px;
+  background-color: #2b2a2a;
+  text-align: center;
+  padding: 10px 0;
+  transition: 0.2s;
+}
+
+.searchInput:focus {
+  border: 1px solid magenta;
+}
